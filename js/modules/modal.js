@@ -5,14 +5,9 @@ export default function initModal(){
 
   if(botaoAbrir && botaoFechar && containerModal){
 
-    function abrirModal(event){
+    function toggleModal(event){
       event.preventDefault();
       containerModal.classList.add('ativo');
-    }
-
-    function fecharModal(event){
-      event.preventDefault();
-      containerModal.classList.remove('ativo');
     }
 
     function cliqueForaModal(event){
