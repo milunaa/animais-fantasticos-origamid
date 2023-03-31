@@ -16,8 +16,8 @@ export default function initModal(){
       }
     }
 
-    botaoAbrir.addEventListener('click', abrirModal);
-    botaoFechar.addEventListener('click', fecharModal);
+    botaoAbrir.addEventListener('click', toggleModal);
+    botaoFechar.addEventListener('click', toggleModal);
     containerModal.addEventListener('click', cliqueForaModal);
   }
 }
